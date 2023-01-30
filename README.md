@@ -1,6 +1,5 @@
-# Golos Wallet by [@rezonator](http://golos.io/@rezonator "@rezonator")
+# Golos Wallet by [@igrinov](http://golos.id/@igrinov "@igrinov")
 **********
-Легкий кошелек, работающий напрямую с блокчейном Голоса. Проверка баланса любого пользователя и отправка переводов. Быстро, удобно, красиво.
+Легкий кошелек, работающий напрямую с блокчейном Голоса. Отправка переводов. Быстро, удобно.
 **********
-Запускается на локальном компьютере, рабочий пример - [https://golosw.cf](https://golosw.cf "https://golosw.cf")<br>
-Работает с нодой [@vik](http://golos.io/@vik "@vik") - [wss://api.golos.cf](http://golos.cf "wss://api.golos.cf")
+Восстановил работоспособность кошелька [@rezonatorg](https://github.com/rezonatorg/goloswallet "@rezonatorg")
