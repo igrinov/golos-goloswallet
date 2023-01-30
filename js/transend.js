@@ -1,6 +1,6 @@
-steem.api.setOptions({ url: 'wss://api.golos.cf' });
-steem.config.set('address_prefix','GLS');
-steem.config.set('chain_id','782a3039b478c839e4cb0c941ff4eaeb7df40bdd68bd441afd444b9da763de12');
+golos.config.set('websocket','wss://api-full.golos.id/ws');
+golos.config.set('address_prefix','GLS');
+golos.config.set('chain_id','782a3039b478c839e4cb0c941ff4eaeb7df40bdd68bd441afd444b9da763de12');
 
 var BUTT = document.querySelector("a.trans");
 BUTT.addEventListener("click", function( event ) {
@@ -13,7 +13,7 @@ var  gog= document.getElementById("gog").value;
 var bbb = Math.round(mone*1000)/1000;;
 var vvv= bbb.toFixed(3)
 
-steem.broadcast.transfer(wif, sender, pol, vvv + ' ' + gog, memo, function(err, result) {
+golos.broadcast.transfer(wif, sender, pol, vvv + ' ' + gog, memo, function(err, result) {
   console.log(err, result);
    if(result) { 
  console.log(result);
